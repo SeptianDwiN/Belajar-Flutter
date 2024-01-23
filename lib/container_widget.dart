@@ -54,9 +54,7 @@ class Ketiga extends StatelessWidget {
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
      decoration: BoxDecoration(
-      gradient: LinearGradient(
-        colors: [Colors.redAccent, Colors.greenAccent],
-      ),
+    color: Colors.cyanAccent,
       borderRadius: BorderRadius.circular(10)
      ),
      child: Empat(),
@@ -80,7 +78,7 @@ class Empat extends StatelessWidget {
       image: DecorationImage(
         image: NetworkImage("https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/01/2023/10/14/299495288_2001243620059694_4721678242684064527_n-2815195294.jpg"),
         fit: BoxFit.fill
-      ),
+      ),  
       borderRadius: BorderRadius.circular(10)
      ),
     );
