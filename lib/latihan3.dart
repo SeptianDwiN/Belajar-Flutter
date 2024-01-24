@@ -46,7 +46,6 @@ class latihan3 extends StatelessWidget {
                   Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8nK6MvW1jT760MNqBmlMdmEUXdClx8kOKkVSM0trgBQdr0Z2DI1TlkFvPrwzVf_5UCUA&usqp=CAU", width: 150, height: 190,),
                   Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ic8AAAB-HgtABU92xuQQrKkt_Mhu4sUdcMg057CVLSx_H7rZryUOuP8qZsQmo9cXVVs&usqp=CAU", width: 150, height: 190,),
                  Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdhtRWmxAd1EV1cIH2fdWFu4kOOu6iNsFy3rgOV6krpub0oPNDXcVPfkI_9ByQzc-iFiI&usqp=CAU", width: 150, height: 190,)
-               
                 ],
               )
             ]
