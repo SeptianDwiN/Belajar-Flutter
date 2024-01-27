@@ -13,7 +13,7 @@ class latihanList extends StatelessWidget {
   final List<ListItem> itemList = [
     ListItem(
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8nK6MvW1jT760MNqBmlMdmEUXdClx8kOKkVSM0trgBQdr0Z2DI1TlkFvPrwzVf_5UCUA&usqp=CAU",
-        "Partai Banteng"),
+        "Persib Bandung adalah klub sepak bola profesional yang berbasis di Bandung, Indonesia. Klub ini didirikan pada 14 Maret 1933 dan menjadi salah satu klub sepak bola paling bersejarah dan populer di Indonesia. Persib Bandung memiliki julukan Maung Bandung dan memainkan pertandingan kandangnya di Stadion Gelora Bandung Lautan Api."),
     ListItem(
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdhtRWmxAd1EV1cIH2fdWFu4kOOu6iNsFy3rgOV6krpub0oPNDXcVPfkI_9ByQzc-iFiI&usqp=CAU",
         "Partai Banteng"),
@@ -54,7 +54,7 @@ class latihanList extends StatelessWidget {
                 children: [
                   Container(
                     width: 500,
-                    height: 300,
+                    height: 280,
                     margin: EdgeInsets.all(10),
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
@@ -102,7 +102,7 @@ class latihanList extends StatelessWidget {
               ),
                Column(
                 children: [
-                  Text("Galery"),
+                  Text("Galery" , style: TextStyle(fontWeight: FontWeight.bold, fontSize: 21),),
                   Container(
                     width: 500,
                     height: 150,
