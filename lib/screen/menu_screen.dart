@@ -1,4 +1,5 @@
 import 'package:belajar/screen/input_form.dart';
+import 'package:belajar/screen/latihan_input.dart';
 import 'package:belajar/screen/list_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:belajar/screen/second_screen.dart';
@@ -15,7 +16,7 @@ class _NavigationMenuState extends State<NavigationMenu> {
   int _selectedTab = 0;
 
   List _pages = [
-    HomeScreen(),
+    LatihanForm(),
     ListNatureScreen(),
     BelajarForm(),
   ];
